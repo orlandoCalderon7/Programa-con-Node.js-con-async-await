@@ -8,8 +8,10 @@ Primero realizamos las importaciones y configuraciones inicales
 
 Importamos la librería de Axios, que es un cliente HTTP basado en promesas que se usa para realizar solicitudes APIs externas
 como es el caso la de jsonplaceholder.typicode.com
+
 Importamos la clase EventEmitter de node.js que nos permite trabajar con el patrón "observador" donde los objetos emiten eventos
 y otros objetos pueden escucharlos y reaccionar a ellos.
+
 Se crea una instancia de EventEmitter, instancia que será el "centro" donde se emitirán y escucharán los eventos en este código.
 
 Simulando una operación asíncrona haciendo que el flujo se vea más síncrono
